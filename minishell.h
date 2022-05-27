@@ -17,6 +17,7 @@
 # include <errno.h>
 # include <stdbool.h>
 typedef struct s_data{
+    char *rdline;
 
 } t_data;
 
