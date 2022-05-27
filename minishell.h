@@ -16,9 +16,15 @@
 # include <signal.h>
 # include <errno.h>
 # include <stdbool.h>
+# include "libft/libft.h"
 typedef struct s_data{
     char *rdline;
+    int i;
+
 
 } t_data;
-
+int ft_search_bultins(t_data *s);
+int ft_search_echo(t_data *s);
+int ft_print_echo(t_data *s, int a);
+int ft_echo(t_data *s);
 #endif
