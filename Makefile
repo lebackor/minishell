@@ -1,6 +1,10 @@
 SRCS = 		minishell.c\
 			echo.c\
 			search_bultins.c\
+			env.c\
+			liste.c\
+			export.c\
+			
 
 OBJS = ${SRCS:.c=.o}
 
