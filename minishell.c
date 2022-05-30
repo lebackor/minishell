@@ -11,7 +11,8 @@ int main(int ac, char **av, char **envp)
     s = NULL;
     s = malloc(sizeof(t_data));
     *s = (t_data){0};
-      s->rdline = readline(">$");
+    s->rdline = readline(">$");
+    ft_search_bultins(s); 
     if (ft_strcmp(s->rdline, "exit") == 0)
      {
       ft_printf("exit\n"); 
