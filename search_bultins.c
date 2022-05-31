@@ -6,7 +6,8 @@ int ft_search_bultins(t_data *s, t_env *env)
         ft_echo(s);
     if (ft_search_env(s) == 0)
         ft_env(env);
-    
+    if (ft_search_export(s) == 0)
+        ft_export(s, env);
     return (1);
 }
 

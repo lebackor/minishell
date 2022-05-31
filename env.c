@@ -25,5 +25,7 @@ int ft_env(t_env *envp)
         ft_printf("%s\n", tmp->content);
         tmp = tmp->next;
     }
+    if (tmp->content)
+        ft_printf("%s\n", tmp->content);
     return (1);
 }

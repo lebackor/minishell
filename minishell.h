@@ -38,4 +38,8 @@ t_env	*create_liste(char *str);
 t_env *put_env(t_env *env, char **envp);
 int ft_search_env(t_data *s);
 int ft_env(t_env *envp);
+int ft_search_export(t_data *s);
+int ft_export(t_data *s, t_env *envp);
+int ft_put_in_env(t_data *s, t_env *envp);
+ 
 #endif
